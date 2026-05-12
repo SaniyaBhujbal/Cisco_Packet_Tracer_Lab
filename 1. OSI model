@@ -1,0 +1,17 @@
+# OSI Model
+
+## The 7 layers
+
+| Layer | Name | What it does | Example |
+|-------|------|-------------|---------|
+| 7 | Application | Interface for user | HTTP, FTP, DNS |
+| 6 | Presentation | Encryption, compression | SSL |
+| 5 | Session | Manages sessions | NetBIOS |
+| 4 | Transport | End-to-end delivery | TCP, UDP |
+| 3 | Network | Routing between networks | IP, OSPF |
+| 2 | Data Link | MAC addressing | Ethernet |
+| 1 | Physical | Cables and signals | Copper, WiFi |
+
+## TCP vs UDP
+- TCP = reliable, slower (HTTP, FTP, SSH)
+- UDP = fast, no guarantee (DNS, video, VoIP)
